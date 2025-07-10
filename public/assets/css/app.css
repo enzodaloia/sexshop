@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff69b4, #ff1493, #8b008b);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 3.5rem;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    margin-bottom: 2rem;
+}
+
+.hb{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    line-height: 1.4;
+    text-shadow: 2px 2px #00000055;
+}
+
+h2 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    line-height: 1.4;
+    text-shadow: 2px 2px #00000055;
+}
+
+#show-again {
+    background-color: #fff;
+    color: #ff1493;
+    border: none;
+    padding: 1.2rem 2.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+#show-again:hover {
+    background-color: #ff1493;
+    color: #fff;
+    transform: scale(1.08);
+}
+
+.articleContainer{
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #ff69b4, #ff1493, #8b008b);
+}
+
+.card-title{
+    font-size: 4rem;
+}
+
+.card-text{
+    font-size: 3rem;
+}
+
+.card-button{
+    font-size: 2.5rem;
+    background-color: #ff1493;
+    color: white;
+}
+
+.scroll-container {
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #show-again {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+}

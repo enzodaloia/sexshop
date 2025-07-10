@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}SexShop{% endblock %}
+
+{% block body %}
+{% set products = [
+    {
+    img: 'assets/img/gode-noir.jpg',
+    title: 'Gode Noir XXL',
+    desc: 'Pour sensations extrêmes… 😉',
+    price: '34,99 €'
+    },
+    {
+    img: 'assets/img/vibro-violet.jpg',
+    title: 'Vibro Violet',
+    desc: 'Discret et puissant, parfait pour le sac à main',
+    price: '39,90 €'
+    },
+    {
+    img: 'assets/img/gode-confetti.webp',
+    title: 'Gode Confetti',
+    desc: 'Fun, coloré et ultra sexy!',
+    price: '29,50 €'
+    },
+    {
+    img: 'assets/img/gode-ventouse.jpg',
+    title: 'Gode Ventouse',
+    desc: 'Pratique à poser, mains‑libres garantie',
+    price: '24,99 €'
+    }
+] %}
+<div class="container-fluid articleContainer p-3">
+    <h1 class="title text-center text-white mb-4">🛍️ Bienvenue Mélanie Villagra 🔥</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-12 px-2 scroll-container">
+            {% for item in products %}
+                <div class="card shadow mb-5">
+                    <center><img src="{{ item.img }}" class="card-img-top" alt={{ item.title }} style="max-width:400px;"></center>
+                    <div class="card-body">
+                        <center><h5 class="card-title">{{ item.title }}</h5>
+                        <p class="card-text">{{ item.desc }}</p>
+                        <p class="card-text"><strong>{{ item.price }}</strong></p>
+                        <a href="#" class="btn card-button">Ajouter au panier</a></center>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}SexShop{% endblock %}
+
+{% block body %}
+
+<div class="content">
+    <img src="{{asset('assets/img/milka.png')}}" alt="Milka" class="profile-pic" />
+    <h2 class="hb">🎉 Joyeux anniversaire 🎁</h2>
+    <h2>Milka</h2>
+    <a id="show-again" href="{{path('app_first_page')}}" style="text-decoration:none;">Continuer</a>
+</div>
+<script src="{{ asset('assets/js/app.js') }}" defer></script>
+{% endblock %}
