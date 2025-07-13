@@ -3,11 +3,11 @@
 {% block title %}SexShop{% endblock %}
 
 {% block body %}
-<div class="container-fluid articleContainer p-3">
-    <div class="row justify-content-center">
+<div class="container-fluid articleContainer" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px;">
+    <div class="row justify-content-center w-100">
         <div class="col-12 col-md-8 col-lg-6 px-2">
             <div class="card shadow mb-5">
-                <center><img src="{{ asset(product.img) }}" class="card-img-top" style="max-width:600px;width: 100%"></center>
+                <center><img src="{{ asset(product.img) }}" class="card-img-top" alt="imageGode" style="max-width:600px; width: 100%; height: auto;"></center>
             </div>
         </div>
     </div>
