@@ -2,9 +2,12 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #ff69b4, #ff1493, #8b008b);
+    background-attachment: fixed; /* Le dégradé reste fixe lors du scroll */
+    min-height: 100vh; /* Assure que le body fait au moins la hauteur de l'écran */
     font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #fff;
-    overflow: hidden;
+    scroll-behavior: smooth; /* Scroll fluide */
+    /* overflow: hidden; SUPPRIMÉ pour permettre le scroll */
 }
 
 .content {
@@ -65,8 +68,8 @@ h2 {
 }
 
 .articleContainer{
-    min-height: 100vh;
-    background: linear-gradient(to bottom right, #ff69b4, #ff1493, #8b008b);
+    padding-bottom: 50px; /* Ajoute un peu d'espace en bas */
+    background: transparent; /* Laisse le background du body apparaître */
 }
 
 .card-title{
