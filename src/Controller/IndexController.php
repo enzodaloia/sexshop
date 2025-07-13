@@ -35,7 +35,7 @@ final class IndexController extends AbstractController
             ],
             2 => [
                 'id' => 2,
-                'img' => 'assets/img/vibro-violet.jpg',
+                'img' => 'assets/img/gode_tour_milka.png',
             ],
             3 => [
                 'id' => 3,
