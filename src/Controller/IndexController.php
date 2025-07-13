@@ -39,7 +39,7 @@ final class IndexController extends AbstractController
             ],
             3 => [
                 'id' => 3,
-                'img' => 'assets/img/gode-confetti.webp',
+                'img' => 'assets/img/gode_confetti_milka.png',
             ],
             4 => [
                 'id' => 4,
