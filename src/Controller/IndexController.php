@@ -51,7 +51,7 @@ final class IndexController extends AbstractController
             ],
             6 => [
                 'id' => 6,
-                'img' => 'assets/img/boule_MilkaRose.png',
+                'img' => 'assets/img/photo_noel_gode.png',
             ],
         ];
         
