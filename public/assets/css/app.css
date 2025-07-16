@@ -50,7 +50,7 @@ h2 {
 
 #show-again {
     background-color: #fff;
-    color: #ff1493;
+    color: #ff9edd;
     border: none;
     padding: 1.2rem 2.5rem;
     font-size: 3rem;
@@ -62,7 +62,7 @@ h2 {
 }
 
 #show-again:hover {
-    background-color: #ff1493;
+    background-color: #ff9edd;
     color: #fff;
     transform: scale(1.08);
 }
@@ -82,7 +82,7 @@ h2 {
 
 .card-button{
     font-size: 2.5rem;
-    background-color: #ff1493;
+    background-color: #ff9edd;
     color: white;
 }
 
