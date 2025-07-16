@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ff69b4, #ff1493, #8b008b);
+    background: linear-gradient(135deg, #ff9edd, #ff89e7, #8b008b);
     background-attachment: fixed; /* Le dégradé reste fixe lors du scroll */
     min-height: 100vh; /* Assure que le body fait au moins la hauteur de l'écran */
     font-family: 'Comic Sans MS', cursive, sans-serif;
