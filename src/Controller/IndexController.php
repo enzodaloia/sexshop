@@ -45,6 +45,10 @@ final class IndexController extends AbstractController
                 'id' => 4,
                 'img' => 'assets/img/gode-ventouse.jpg',
             ],
+            5 => [
+                'id' => 5,
+                'img' => 'assets/img/menotte_milka_rose.jpg',
+            ],
         ];
         
         if (!isset($products[$id])) {
